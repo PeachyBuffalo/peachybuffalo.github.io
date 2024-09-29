@@ -21,7 +21,7 @@ This is the repository for my personal website, which is hosted at [peachybuffal
 
 - [Testimonials](#testimonials)
 
-- [Resume](#resume)
+- [Resume](resume.md)
 
 ## Introduction
 
