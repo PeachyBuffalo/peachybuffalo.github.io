@@ -1,0 +1,39 @@
+.aboutMe {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+.aboutMe h1 {
+    font-size: 32px;
+    color: #282c34;
+}
+
+.aboutMe p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.aboutMe h2 {
+    font-size: 28px;
+    margin-top: 20px;
+    color: #61dafb;
+}
+
+.aboutMe h3 {
+    font-size: 24px;
+    margin-top: 15px;
+    color: #282c34;
+}
+
+.aboutMe ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.aboutMe li {
+    font-size: 18px;
+    margin: 5px 0;
+}

@@ -1,0 +1,23 @@
+.skills {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.skillsList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skillItem {
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.skillItem:hover {
+    background-color: #e0f7fa; /* Light blue on hover */
+}

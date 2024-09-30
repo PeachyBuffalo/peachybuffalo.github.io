@@ -1,0 +1,44 @@
+.portfolio {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.projectGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.projectCard {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: white;
+    transition: box-shadow 0.3s;
+}
+
+.projectCard:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.projectImage {
+    max-width: 100%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.projectLink {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #61dafb;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.projectLink:hover {
+    background-color: #5bc0de; /* Darker shade on hover */
+}
