@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/peachybuffalo/static/css/main.c41687cd.css",
+    "main.js": "/peachybuffalo/static/js/main.1821cdf1.js",
+    "static/js/453.325a857f.chunk.js": "/peachybuffalo/static/js/453.325a857f.chunk.js",
+    "index.html": "/peachybuffalo/index.html",
+    "main.c41687cd.css.map": "/peachybuffalo/static/css/main.c41687cd.css.map",
+    "main.1821cdf1.js.map": "/peachybuffalo/static/js/main.1821cdf1.js.map",
+    "453.325a857f.chunk.js.map": "/peachybuffalo/static/js/453.325a857f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c41687cd.css",
+    "static/js/main.1821cdf1.js"
+  ]
+}
