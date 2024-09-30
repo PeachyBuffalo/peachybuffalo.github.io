@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/peachybuffalo.github.io/static/css/main.c41687cd.css",
-    "main.js": "/peachybuffalo.github.io/static/js/main.d20281ca.js",
+    "main.css": "/peachybuffalo.github.io/static/css/main.59c6c1ab.css",
+    "main.js": "/peachybuffalo.github.io/static/js/main.af9dc461.js",
     "static/js/453.325a857f.chunk.js": "/peachybuffalo.github.io/static/js/453.325a857f.chunk.js",
     "index.html": "/peachybuffalo.github.io/index.html",
-    "main.c41687cd.css.map": "/peachybuffalo.github.io/static/css/main.c41687cd.css.map",
-    "main.d20281ca.js.map": "/peachybuffalo.github.io/static/js/main.d20281ca.js.map",
+    "main.59c6c1ab.css.map": "/peachybuffalo.github.io/static/css/main.59c6c1ab.css.map",
+    "main.af9dc461.js.map": "/peachybuffalo.github.io/static/js/main.af9dc461.js.map",
     "453.325a857f.chunk.js.map": "/peachybuffalo.github.io/static/js/453.325a857f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c41687cd.css",
-    "static/js/main.d20281ca.js"
+    "static/css/main.59c6c1ab.css",
+    "static/js/main.af9dc461.js"
   ]
 }
