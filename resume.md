@@ -3,7 +3,7 @@
 ## Macall Smith
 **Location:** Holland, Michigan, United States  
 **Email:** macall@gatech.edu | **Phone:** 616-403-6921  
-**LinkedIn:** [Link] | **Github:** [Link] | **Website:** [www.macall.io](http://www.macall.io)
+[LinkedIn Profile](https://www.linkedin.com/in/macall-smith/) | **Github:** [GitHub Profile](https://github.com/PeachyBuffalo) | **Website:** [www.macall.io](http://www.macall.io)
 
 ---
 
