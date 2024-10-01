@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Button } from './ui/button'; // Changed to named import
+import { Button } from './ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from './ui/card';
 import { Badge } from './ui/badge';
 import { ArrowRight, Code, Briefcase, Mail } from 'lucide-react'
-
+import { projects } from '../data/projectData';
 export default function Home() {
   return (
     <div className="container mx-auto px-4 py-8">
@@ -13,7 +13,7 @@ export default function Home() {
         <h1 className="text-4xl font-bold mb-4">Macall Smith</h1>
         <p className="text-xl mb-8">Building code and products that make an impact</p>
         <Button asChild>
-          <Link to="/contact" className="bg-white text-purple-600 hover:bg-gray-100">
+          <Link to="/contact" className="bg-white/50 rounded-md text-purple-600 hover:bg-gray-100">
             Get in Touch <ArrowRight className="ml-2 h-4 w-4" />
           </Link>
         </Button>
@@ -23,27 +23,27 @@ export default function Home() {
       <section className="mb-12">
         <h2 className="text-3xl font-bold mb-6 text-center">Featured Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {[1, 2, 3].map((project) => (
-            <Card key={project}>
+          {projects.map((project) => (
+            <Card key={project.id}>
               <CardHeader>
-                <CardTitle>Project {project}</CardTitle>
-                <CardDescription>A short description of the project</CardDescription>
+                <CardTitle>{project.title}</CardTitle>
+                <CardDescription>{project.description}</CardDescription>
               </CardHeader>
               <CardContent>
                 <img
-                  src={`/placeholder.svg?height=200&width=400`}
-                  alt={`Project ${project}`}
+                  src={project.image}
+                  alt={project.title}
                   className="w-full h-48 object-cover rounded-md mb-4"
                 />
                 <div className="flex flex-wrap gap-2">
-                  <Badge>React</Badge>
-                  <Badge>TypeScript</Badge>
-                  <Badge>Tailwind CSS</Badge>
+                  {project.technologies.map((tech) => (
+                    <Badge key={tech}>{tech}</Badge>
+                  ))}
                 </div>
               </CardContent>
               <CardFooter>
                 <Button asChild>
-                  <Link to={`/projects/${project}`}>View Project</Link>
+                  <Link to={project.link}>View Project</Link>
                 </Button>
               </CardFooter>
             </Card>
